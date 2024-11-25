@@ -1,0 +1,49 @@
+body {
+    background-image: url('../images/left.png');
+    background-size: cover;         /* Покриває весь фон */
+    background-repeat: no-repeat;   /* Відсутність повтору зображення */
+    background-attachment: fixed;   /* Закріплення зображення під час прокрутки */
+    background-position: center;    /* Розміщення зображення в центрі */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 100px;
+    padding: 100px;                     /* Занулюємо padding для правильного центрування */
+    /*height: 100vh;                  /* Висота на все вікно браузера */
+    box-sizing: border-box;         /* Врахування padding та border у загальний розмір */
+   /* display: flex;                  /* Використовуємо flexbox для центрування */
+    justify-content: center;        /* Горизонтальне центрування */
+    align-items: flex-start;            /* Вертикальне центрування */
+    text-align: center;             /* Центрування тексту всередині контейнера */
+    max-width: 100vw;               /* Запобігає виходу за межі екрана */}
+
+p {
+    color: white;                     /* Червоний колір тексту */
+    font-size: 20px;
+    margin: 0;                      /* Занулюємо margin для точного центрування */
+}
+h1,h2{
+    color: white;
+}
+button {
+    background-color: #4CAF50; /* Зелений фон */
+    border: none; /* Без рамки */
+    color: white; /* Білий текст */
+    padding: 15px 32px; /* Відступи всередині кнопки */
+    text-align: center; /* Центрування тексту */
+    text-decoration: none; /* Відсутність підкреслення */
+    display: inline-block; /* Відображення кнопки як блоку */
+    font-size: 16px; /* Розмір тексту */
+    margin: 4px 2px; /* Відступи між кнопками */
+    cursor: pointer; /* Вказівник у вигляді руки */
+    border-radius: 12px; /* Закруглені кути */
+    transition: background-color 0.3s ease, transform 0.1s ease; /* Плавний перехід кольору фону та ефект натискання */
+}
+
+button:hover {
+    background-color: #45a049; /* Темніший зелений при наведенні курсору */
+}
+
+button:active {
+    background-color: #3e8e41; /* Темний зелений при натисканні */
+    transform: scale(0.95); /* Зменшення кнопки на 5% для імітації натискання */
+}
